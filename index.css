@@ -1,0 +1,92 @@
+body {
+    background-color: #2c2728;
+    margin: 0px;
+}
+
+h2 {
+    font-family: 'Bitter', serif;
+
+    background-color: rgb(126, 117, 122);
+    text-align: center;
+}
+h3 {
+    font-family: 'Titillium Web', sans-serif;
+    background-color: rgb(252, 249, 251);
+    text-align: center;
+}
+
+h2, h4 {
+    margin: 0px;
+}
+
+.header, .card {
+    background-color: #FFFFFF;
+}
+
+.header {
+    position: sticky;
+    top: 0px;
+    padding-bottom: 5px;
+}
+
+.container {
+    display: flex;
+}
+
+.leftcontent {
+    padding: 5px;
+    width: calc(70% - 10px);
+    float: left;
+}
+
+.rightcontent {
+    padding: 5px;
+    width: calc(30% - 10px);
+    float: right;
+}
+
+.card {
+    margin: 5px 0px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+img {
+    width: 100%;
+}
+
+.right-sticky {
+    position: sticky;
+    top: 40px;
+}
+.b{
+    display: inline;
+    border: lightslategray;
+    color: black;
+    border-radius: 5px;
+    background-color: rgb(151, 140, 148);
+    
+}
+a{
+    text-decoration: none;
+}
+
+.footer .credit {
+    text-transform: capitalize;
+    font-size: 1 rem;
+    color: gray;
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  .footer .credit span {
+    color: red;
+  }
+
+  .footer {
+    padding: 1rem 0;
+  }
+  p {
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: #a09395; */
+  }
